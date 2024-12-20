@@ -35,34 +35,34 @@ This project focuses on creating an **NLP-based Query Categorization and Respons
 ```
 nlp_query_system/
 ├─ data/
-│  ├─ mock_data_generation.py          # Script for generating synthetic data
-│  ├─ synthetic_data.json              # Sample mock data in JSON format
-│  ├─ synthetic_data.csv               # Sample mock data in CSV format
+│  ├─ mock_data_generation.py           
+│  ├─ synthetic_data.json               
+│  ├─ synthetic_data.csv               
 ├─ models/
-│  ├─ categorization_model.py          # Transformer-based query categorization
-│  ├─ sentiment_model.py               # Sentiment analysis module
-│  ├─ transformer_finetune.py          # Transformer fine-tuning script
-│  ├─ utils.py                         # Utility functions for preprocessing
+│  ├─ categorization_model.py         
+│  ├─ sentiment_model.py               
+│  ├─ transformer_finetune.py          
+│  ├─ utils.py                          
 ├─ train/
-│  ├─ train_category.py                # Training script for categorization
-│  ├─ train_sentiment.py               # Training script for sentiment analysis
-│  ├─ train_config.yaml                # Configurations for training
+│  ├─ train_category.py             
+│  ├─ train_sentiment.py               
+│  ├─ train_config.yaml                 
 ├─ inference/
-│  ├─ inference_pipeline.py            # Full pipeline for predictions
-│  ├─ response_templates.py            # Templates for response generation
+│  ├─ inference_pipeline.py             
+│  ├─ response_templates.py             
 ├─ api/
-│  ├─ app.py                           # Flask API for real-time inference
-│  ├─ Dockerfile                       # Dockerfile for containerization
-│  ├─ requirements.txt                 # Required Python dependencies
-│  ├─ gunicorn_config.py               # Gunicorn server configuration
-│  ├─ swagger.yaml                     # API documentation
-│  ├─ k8s_deployment.yaml              # Kubernetes deployment configuration
+│  ├─ app.py                            
+│  ├─ Dockerfile                      
+│  ├─ requirements.txt                 
+│  ├─ gunicorn_config.py               
+│  ├─ swagger.yaml                  
+│  ├─ k8s_deployment.yaml              
 ├─ scripts/
-│  ├─ run_docker.sh                    # Bash script to build and run Docker
-│  ├─ deploy_k8s.sh                    # Bash script to deploy on Kubernetes
-│  ├─ download_models.sh               # Script to download pre-trained models
-│  ├─ generate_data.sh                 # Script to run data generation
-└─ README.md                           # Project documentation
+│  ├─ run_docker.sh                   
+│  ├─ deploy_k8s.sh                    
+│  ├─ download_models.sh              
+│  ├─ generate_data.sh              
+└─ README.md                           
 ```
 
 ---
