@@ -90,7 +90,7 @@ nlp_query_system/
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/tuanvukng01/nlp_query_system.git
    cd nlp_query_system
    ```
 
@@ -138,12 +138,15 @@ Refer to the Swagger documentation (`api/swagger.yaml`) for detailed usage.
 
 ---
 
-## **Screenshots**
+[//]: # (## **Screenshots**)
 
-![Mock Data Generation](https://img.icons8.com/color/48/000000/code.png)
-_Sample mock data generation script in action._
+[//]: # ()
+[//]: # (![Mock Data Generation]&#40;https://img.icons8.com/color/48/000000/code.png&#41;)
 
----
+[//]: # (_Sample mock data generation script in action._)
+
+[//]: # ()
+[//]: # (---)
 
 ## **Contributing**
 Contributions are welcome! Please fork the repository and submit a pull request for review.
@@ -153,9 +156,13 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
----
+[//]: # (---)
 
-## **Contact**
-- Author: [Your Name]
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile]
+[//]: # ()
+[//]: # (## **Contact**)
+
+[//]: # (- Author: [Your Name])
+
+[//]: # (- Email: your.email@example.com)
+
+[//]: # (- LinkedIn: [Your LinkedIn Profile])
